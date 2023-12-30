@@ -1,0 +1,269 @@
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("netflix.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 100vh;
+  position: relative;
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  color: red;
+  width: 120px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  /* font-family: "Martel Sans", sans-serif; */
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero > :first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.separation{
+  height: 7px;
+  background-color: rgb(54, 41, 41);
+  /* position: relative;
+  z-index: 20; */
+}
+.btn{
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(92, 77, 77, 0.021);
+  overflow: hidden;
+  gap: 5px;
+  
+}
+.btn-red{
+  background-color: red;
+  color: white;
+  font-weight: 400;
+  padding: 5px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+ 
+
+}
+.btn-red-sm{
+  background-color: red;
+  color: white;
+}
+.hero-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main input{
+  padding: 7px 100px 8px 14px;
+  /* font-weight: 900; */
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23,23,23,0.7);
+  border: 1px solid rgba(248, 242, 242, 0.7);
+}
+.frist{
+  display: flex;
+  justify-content:center;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  align-items: center;
+  /* height: 80vh; */
+}
+.secimg{
+  position: relative;
+
+}
+.secimg img{
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video{
+  position: absolute;
+  width: 35vw;
+  top: 51px;
+  right: 0;
+}
+.section.frist > div{
+  display: flex;
+  flex-direction: column;
+  /* padding: 34px 0; */
+}
+section.frist > div :nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+}
+section.frist > div :nth-child(2){
+  font-size: 24px;
+  
+}
+.faq {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.faq h1{
+  text-align: center;
+  font-size: 45px;
+}
+.faqbox:hover {
+  background-color: #414141;
+}
+.faqbox{
+  transition: all  ease-out;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 17px;
+  max-width: 60vw;
+  margin: 30px auto;
+  cursor: pointer;
+  font-size: 24px;
+}
+.faqbox svg{
+  filter: invert(1);
+}
+
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px 0 70px;
+}
+
+footer .question{
+  padding: 34px 0;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+.footer-items{
+ display: flex;
+ flex-direction: column;
+ gap: 23px;
+
+}
+
+.footer-items a{
+  color: white;
+}
+
+.name{
+  text-align: center;
+  padding: 10px 0 20px;
+  font-size: 20px;
+}
+
+
+ /* @media screen and (max-width: 850px ){
+
+
+  nav{
+    max-width: 90vw;
+    
+  }
+  .frist{
+    
+    flex-wrap: wrap;
+   
+  }
+  .secimg img{
+    width: 400px;
+   
+  }
+  .secimg video{
+    width: 400px;
+   
+  }
+  .hero > :first-child {
+     font-size: 24px;
+ 
+  }
+  .hero > :nth-child(2) {
+    font-size: 20px;
+
+ }
+ .hero > :nth-child(3) {
+  font-size: 15px;
+
+}
+.hero-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+} 
+
+@media screen and (max-width: 850px ){
+  .footer{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+}  */
+
+ 
